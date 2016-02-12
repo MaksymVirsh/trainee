@@ -1,0 +1,36 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+section{
+	height: 100vh;
+	background: #666;
+	position: relative;
+	overflow: hidden;
+}
+.sect-1{
+	background-image: url(paralax2.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.header_text{
+	width: 500px;
+	font-weight: bold;
+	clear: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: 0 auto;
+	margin-left: -250px;
+	margin-top: -5%;
+	text-align: center;
+
+}
+
+.sect-2 img{
+	width: 100%;
+	position: absolute;
+	top: -400px;
+}
